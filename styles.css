@@ -1,0 +1,38 @@
+.hero-main,
+.footer {
+    background-color: #1F2397;
+}
+
+.hero-main .text > h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-main .text > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main .links > a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.hero-main .btn > button {
+   background-color:#3882F6;
+}
+
+.information > p, .action > p {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2397;
+
+}
+.container-three {
+    background-color: #E5E7EB;
+
+}
