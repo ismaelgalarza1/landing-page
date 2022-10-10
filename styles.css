@@ -123,14 +123,14 @@ a:link {
     font-weight: bold;
     font-size: 18px;
     text-align: center;
-    padding: 30px 5px 60px;
+    padding: 13px 0px 38px 28px;
 }
 
 .information {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .information #info {
