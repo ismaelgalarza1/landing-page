@@ -1,14 +1,19 @@
-.header{
-    height: 100px;
+* {
+    padding: 0;
+    margin: 0;
 }
-.header-container {
+
+header{
+    padding: 1em 13em;
     background-color: #1f2937;
 }
 
 /* Logo font and color*/
 #logo {
     font-size: 24px;
+    font-weight: 900;
     color: #f9faf8;
+    
 }
 
 /* nav */
@@ -21,13 +26,14 @@
 .nav-list ul {
     list-style-type: none;
     display: flex;
-    gap: 15em;
+    gap: 1.5em;
+}
+.left{
+    display: flex;
+
 }
 
 /* main and secondary text*/
-.main-text {
-    display: flex;
-}
 
 .main-text p {
     font-size: 48px;
@@ -42,15 +48,20 @@
 }
 
 /* button */
-.btn button {
+.btn button, .sign-up{
+    padding: 7px 1em;
+    width: 120px;
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+.sign-up{
+    border-color: white;
 }
 
 /*image*/
 .image {
     display: flex;
-
 }
 
 .image img {
@@ -71,4 +82,24 @@
     height: 100px;
     width: 100px;
 
+}
+.container-three{
+    background-color: #E5E7EB;
+}
+.container-three .quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color:#1F2937;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: center;
+   
+}
+#call{
+    color:white;
 }
