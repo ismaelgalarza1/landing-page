@@ -28,14 +28,17 @@ header{
     display: flex;
     gap: 1.5em;
 }
-.left{
+/* main and secondary text*/
+.left {
+    padding: 7em 0;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
 }
 
-/* main and secondary text*/
-
-.main-text p {
+.main-text #main {
+    flex-direction: column;
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -60,11 +63,9 @@ header{
 }
 
 /*image*/
-.image {
-    display: flex;
-}
 
 .image img {
+    
     height: 400px;
     width: 400px;
 }
